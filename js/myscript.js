@@ -33,12 +33,12 @@ if(randomNumber1 < randomNumber2){
 
 
  for (let i = 0; i < Email.length; i++){
-    console.log(EmailList[i], i)
-    if(Email != EmailList[i]){
-        console.log("NO")
-    } else {
-        console.log("Si")
-    }
+    
+    if(Email === EmailList[i]){
+        console.log("si")
+    } 
+    
+
  }
 
 
